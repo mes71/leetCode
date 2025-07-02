@@ -1,17 +1,17 @@
 void main() {
-  List<int> ss = [2, 7, 11, 15];
- print(twoSum([11, 7, 11, 2],9));
+  List<int> ss = [21, 7, 11, 15, 2];
+  print(twoSum(ss, 9));
 }
+
 List<int> twoSum(List<int> nums, int target) {
-  final l = nums.length;
-  for (int offset = 1; offset < l; offset++) {
-    final unvisited = l - offset;
-    for (int pointer = 0; pointer < unvisited; pointer++) {
-      final j = pointer + offset;
-      if (nums[pointer] + nums[j] == target) {
-        return [pointer, j];
-      }
+  final Map<int, int> seen = {};
+  for (int i = 0; i < nums.length; i++) {
+    final complement = target - nums[i];
+    if (seen.containsKey(complement)) {
+      return [seen[complement]!, i];
     }
+    seen[nums[i]] = i;
   }
+
   return [];
 }
