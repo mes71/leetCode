@@ -1,4 +1,5 @@
-## [Two Sum](https://leetcode.com/problems/two-sum/description/)
+## [Two Sum](https://leetcode.com/problems/two-sum/description/) <img src="../assets/medium.svg" width="100" style="vertical-align: middle; margin-right:4px;"  alt="level"/>
+
 
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to
 target.
