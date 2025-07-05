@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84f79fc9-358e-4c6e-b033-84b2ac138e99" name="Changes" comment="feat: new assets and use it">
-      <change afterPath="$PROJECT_DIR$/assets/img/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dart/2_add_two_numbers.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dart/3304_Find the K-th Character in String Game I.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem/2_Add_Two_Numbers.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem/3304_Find the K-th Character in String Game I.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+    <list default="true" id="84f79fc9-358e-4c6e-b033-84b2ac138e99" name="Changes" comment="feat: solve problem 2 , 3304 in dart">
+      <change afterPath="$PROJECT_DIR$/dart/3307_Find the K-th Character in String Game II.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem/3307. Find the K-th Character in String Game II.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,30 +47,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Dart Command Line App.1_two_sum.dart.executor": "Debug",
-    "Dart Command Line App.3304_Find the K-th Character in String Game I.dart.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "/Users/mojtaba/AndroidProject/leetCode/problem",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "dart.settings",
-    "show.migrate.to.gradle.popup": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Dart Command Line App.1_two_sum.dart.executor&quot;: &quot;Debug&quot;,
+    &quot;Dart Command Line App.3304_Find the K-th Character in String Game I.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.3307. Find the K-th Character in String Game II.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.3307_Find the K-th Character in String Game II.dart.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mojtaba/AndroidProject/leetCode/dart&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;dart.settings&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dart" />
       <recent name="$PROJECT_DIR$/problem" />
       <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$/assets" />
@@ -84,7 +83,7 @@
       <recent name="D:\fl_project\leetCode\problem" />
     </key>
   </component>
-  <component name="RunManager" selected="Dart Command Line App.3304_Find the K-th Character in String Game I.dart">
+  <component name="RunManager" selected="Dart Command Line App.3307_Find the K-th Character in String Game II.dart">
     <configuration name="1_two_sum.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/dart/1_two_sum.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$/dart" />
@@ -95,8 +94,14 @@
       <option name="workingDirectory" value="$PROJECT_DIR$/dart" />
       <method v="2" />
     </configuration>
+    <configuration name="3307_Find the K-th Character in String Game II.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/dart/3307_Find the K-th Character in String Game II.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/dart" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.3307_Find the K-th Character in String Game II.dart" />
         <item itemvalue="Dart Command Line App.3304_Find the K-th Character in String Game I.dart" />
         <item itemvalue="Dart Command Line App.1_two_sum.dart" />
       </list>
@@ -122,7 +127,10 @@
       <workItem from="1751461221953" duration="181000" />
       <workItem from="1751461428826" duration="2444000" />
       <workItem from="1751482467663" duration="1904000" />
-      <workItem from="1751552869290" duration="6220000" />
+      <workItem from="1751552869290" duration="6297000" />
+      <workItem from="1751601959840" duration="2183000" />
+      <workItem from="1751648538350" duration="3485000" />
+      <workItem from="1751703162505" duration="702000" />
     </task>
     <task id="LOCAL-00001" summary="fix :  1_two_sum.dart">
       <option name="closed" value="true" />
@@ -140,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751483625302</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: solve problem 2 , 3304 in dart">
+      <option name="closed" value="true" />
+      <created>1751560265180</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1751560265180</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +165,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix :  1_two_sum.dart" />
     <MESSAGE value="feat: new assets and use it" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: new assets and use it" />
+    <MESSAGE value="feat: solve problem 2 , 3304 in dart" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: solve problem 2 , 3304 in dart" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
