@@ -5,5 +5,6 @@ class Solution {
 }
 
 void main(){
-
+  group()
+  test();
 }
