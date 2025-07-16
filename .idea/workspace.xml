@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84f79fc9-358e-4c6e-b033-84b2ac138e99" name="Changes" comment="feat : 14-longest-common-prefix.md">
-      <change afterPath="$PROJECT_DIR$/dart/14-longest-common-prefix.dart" afterDir="false" />
+    <list default="true" id="84f79fc9-358e-4c6e-b033-84b2ac138e99" name="Changes" comment="feat: solve problem 2 , 3304 in dart">
+      <change beforePath="$PROJECT_DIR$/.idea/leetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetCode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dart/13-roman-to-integer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/dart/13-roman-to-integer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dart/3307_Find the K-th Character in String Game II.dart" beforeDir="false" afterPath="$PROJECT_DIR$/dart/3307_Find the K-th Character in String Game II.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dart/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/dart/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,30 +50,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Dart Command Line App.13-roman-to-integer.dart.executor": "Debug",
-    "Dart Command Line App.14-longest-common-prefix.dart.executor": "Debug",
-    "Dart Command Line App.1_two_sum.dart.executor": "Debug",
-    "Dart Command Line App.3_longest_substring_without_repeating_characters.dart.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/fl_project/leetCode/problem",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "AndroidSdkUpdater",
-    "show.migrate.to.gradle.popup": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Dart Command Line App.1_two_sum.dart.executor&quot;: &quot;Debug&quot;,
+    &quot;Dart Command Line App.3_longest_substring_without_repeating_characters.dart.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/fl_project/leetCode/problem&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\fl_project\leetCode\problem" />
@@ -79,17 +81,7 @@
       <recent name="D:\fl_project\leetCode\problem" />
     </key>
   </component>
-  <component name="RunManager" selected="Dart Command Line App.14-longest-common-prefix.dart">
-    <configuration name="13-roman-to-integer.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/dart/13-roman-to-integer.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$/dart" />
-      <method v="2" />
-    </configuration>
-    <configuration name="14-longest-common-prefix.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/dart/14-longest-common-prefix.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$/dart" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Dart Command Line App.3_longest_substring_without_repeating_characters.dart">
     <configuration name="1_two_sum.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/dart/1_two_sum.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$/dart" />
@@ -102,8 +94,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Dart Command Line App.14-longest-common-prefix.dart" />
-        <item itemvalue="Dart Command Line App.13-roman-to-integer.dart" />
         <item itemvalue="Dart Command Line App.3_longest_substring_without_repeating_characters.dart" />
         <item itemvalue="Dart Command Line App.1_two_sum.dart" />
       </list>
@@ -132,15 +122,7 @@
       <workItem from="1752295911068" duration="11000" />
       <workItem from="1752295962173" duration="215000" />
       <workItem from="1752296604219" duration="134000" />
-      <workItem from="1752411034679" duration="2030000" />
-      <workItem from="1752468537893" duration="77000" />
-      <workItem from="1752494361780" duration="4588000" />
-      <workItem from="1752554977232" duration="18000" />
-      <workItem from="1752555427597" duration="56000" />
-      <workItem from="1752658178823" duration="1332000" />
-      <workItem from="1752660782263" duration="2012000" />
-      <workItem from="1752664077546" duration="518000" />
-      <workItem from="1752665744086" duration="2575000" />
+      <workItem from="1752411034679" duration="1982000" />
     </task>
     <task id="LOCAL-00001" summary="fix :  1_two_sum.dart">
       <option name="closed" value="true" />
@@ -166,39 +148,7 @@
       <option name="project" value="LOCAL" />
       <updated>1752412612020</updated>
     </task>
-    <task id="LOCAL-00004" summary="chore : add pubspec.yaml">
-      <option name="closed" value="true" />
-      <created>1752413083663</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1752413083663</updated>
-    </task>
-    <task id="LOCAL-00005" summary="chore : .gitignore">
-      <option name="closed" value="true" />
-      <created>1752664101441</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1752664101441</updated>
-    </task>
-    <task id="LOCAL-00006" summary="feat : 13-roman-to-integer">
-      <option name="closed" value="true" />
-      <created>1752664128388</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1752664128388</updated>
-    </task>
-    <task id="LOCAL-00007" summary="feat : 14-longest-common-prefix.md">
-      <option name="closed" value="true" />
-      <created>1752664597620</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1752664597620</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,22 +168,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix :  1_two_sum.dart" />
     <MESSAGE value="chore : add .gitignore" />
-    <MESSAGE value="chore : add pubspec.yaml" />
-    <MESSAGE value="chore : .gitignore" />
     <MESSAGE value="feat : 13-roman-to-integer" />
-    <MESSAGE value="feat : 14-longest-common-prefix.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 14-longest-common-prefix.md" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="Dart">
-          <url>file://$PROJECT_DIR$/dart/14-longest-common-prefix.dart</url>
-          <line>2</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 13-roman-to-integer" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
