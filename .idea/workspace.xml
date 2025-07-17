@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84f79fc9-358e-4c6e-b033-84b2ac138e99" name="Changes" comment="feat : 14-longest-common-prefix.md">
-      <change afterPath="$PROJECT_DIR$/dart/14-longest-common-prefix.dart" afterDir="false" />
+    <list default="true" id="84f79fc9-358e-4c6e-b033-84b2ac138e99" name="Changes" comment="feat : 14-longest-common-prefix.dart">
+      <change afterPath="$PROJECT_DIR$/dart/20_Valid_Parentheses.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem/20_Valid_Parentheses.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,34 +47,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Dart Command Line App.13-roman-to-integer.dart.executor": "Debug",
-    "Dart Command Line App.14-longest-common-prefix.dart.executor": "Debug",
-    "Dart Command Line App.1_two_sum.dart.executor": "Debug",
-    "Dart Command Line App.3_longest_substring_without_repeating_characters.dart.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/fl_project/leetCode/problem",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "AndroidSdkUpdater",
-    "show.migrate.to.gradle.popup": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Dart Command Line App.13-roman-to-integer.dart.executor&quot;: &quot;Debug&quot;,
+    &quot;Dart Command Line App.14-longest-common-prefix.dart.executor&quot;: &quot;Debug&quot;,
+    &quot;Dart Command Line App.1_two_sum.dart.executor&quot;: &quot;Debug&quot;,
+    &quot;Dart Command Line App.3_longest_substring_without_repeating_characters.dart.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/fl_project/leetCode/dart&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\fl_project\leetCode\problem" />
       <recent name="D:\fl_project\leetCode\dart" />
+      <recent name="D:\fl_project\leetCode\problem" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\fl_project\leetCode\problem" />
@@ -140,7 +141,9 @@
       <workItem from="1752658178823" duration="1332000" />
       <workItem from="1752660782263" duration="2012000" />
       <workItem from="1752664077546" duration="518000" />
-      <workItem from="1752665744086" duration="2575000" />
+      <workItem from="1752665744086" duration="3941000" />
+      <workItem from="1752673873042" duration="8000" />
+      <workItem from="1752754614694" duration="390000" />
     </task>
     <task id="LOCAL-00001" summary="fix :  1_two_sum.dart">
       <option name="closed" value="true" />
@@ -198,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752664597620</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat : 14-longest-common-prefix.dart">
+      <option name="closed" value="true" />
+      <created>1752668529961</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1752668529961</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,18 +233,8 @@
     <MESSAGE value="chore : .gitignore" />
     <MESSAGE value="feat : 13-roman-to-integer" />
     <MESSAGE value="feat : 14-longest-common-prefix.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 14-longest-common-prefix.md" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="Dart">
-          <url>file://$PROJECT_DIR$/dart/14-longest-common-prefix.dart</url>
-          <line>2</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="feat : 14-longest-common-prefix.dart" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 14-longest-common-prefix.dart" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
