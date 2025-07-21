@@ -6,10 +6,10 @@ void main() {
   String result = solution.kthCharacter(k, [0, 1, 0, 1]);
   print('The $k-th character is: ${result}');
 
-  int k2 = 5;
+  /*int k2 = 5;
   String result2 = solution.kthCharacter(k2, [0,0,0]);
   //print('The $k-th character is: ${result[k-1]}');
-  print('The $k-th character is: ${result2}');
+  print('The $k-th character is: ${result2}');*/
 }
 class Solution {
   String kthCharacter(int k, List<int> operations) {

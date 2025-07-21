@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84f79fc9-358e-4c6e-b033-84b2ac138e99" name="Changes" comment="feat : 14-longest-common-prefix.dart">
-      <change afterPath="$PROJECT_DIR$/dart/21_Merge_Two_Sorted_Lists.dart" afterDir="false" />
+    <list default="true" id="84f79fc9-358e-4c6e-b033-84b2ac138e99" name="Changes" comment="feat : 14-longest-common-prefix.md">
+      <change afterPath="$PROJECT_DIR$/dart/14-longest-common-prefix.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dart/20_Valid_Parentheses.dart" beforeDir="false" afterPath="$PROJECT_DIR$/dart/20_Valid_Parentheses.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +52,6 @@
     "Dart Command Line App.13-roman-to-integer.dart.executor": "Debug",
     "Dart Command Line App.14-longest-common-prefix.dart.executor": "Debug",
     "Dart Command Line App.1_two_sum.dart.executor": "Debug",
-    "Dart Command Line App.20_Valid_Parentheses.dart.executor": "Run",
     "Dart Command Line App.3_longest_substring_without_repeating_characters.dart.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -61,27 +59,27 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/fl_project/leetCode/dart",
+    "last_opened_file_path": "D:/fl_project/leetCode/problem",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "AndroidSdkUpdater",
     "show.migrate.to.gradle.popup": "false",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\fl_project\leetCode\dart" />
       <recent name="D:\fl_project\leetCode\problem" />
+      <recent name="D:\fl_project\leetCode\dart" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\fl_project\leetCode\problem" />
     </key>
   </component>
-  <component name="RunManager" selected="Dart Command Line App.20_Valid_Parentheses.dart">
+  <component name="RunManager" selected="Dart Command Line App.14-longest-common-prefix.dart">
     <configuration name="13-roman-to-integer.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/dart/13-roman-to-integer.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$/dart" />
@@ -97,11 +95,6 @@
       <option name="workingDirectory" value="$PROJECT_DIR$/dart" />
       <method v="2" />
     </configuration>
-    <configuration name="20_Valid_Parentheses.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/dart/20_Valid_Parentheses.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$/dart" />
-      <method v="2" />
-    </configuration>
     <configuration name="3_longest_substring_without_repeating_characters.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/dart/3_longest_substring_without_repeating_characters.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$/dart" />
@@ -109,7 +102,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Dart Command Line App.20_Valid_Parentheses.dart" />
         <item itemvalue="Dart Command Line App.14-longest-common-prefix.dart" />
         <item itemvalue="Dart Command Line App.13-roman-to-integer.dart" />
         <item itemvalue="Dart Command Line App.3_longest_substring_without_repeating_characters.dart" />
@@ -148,15 +140,7 @@
       <workItem from="1752658178823" duration="1332000" />
       <workItem from="1752660782263" duration="2012000" />
       <workItem from="1752664077546" duration="518000" />
-      <workItem from="1752665744086" duration="3941000" />
-      <workItem from="1752673873042" duration="8000" />
-      <workItem from="1752754614694" duration="494000" />
-      <workItem from="1752900692839" duration="26000" />
-      <workItem from="1752927531065" duration="2448000" />
-      <workItem from="1752986611891" duration="383000" />
-      <workItem from="1753003065480" duration="4348000" />
-      <workItem from="1753073678206" duration="2392000" />
-      <workItem from="1753093280986" duration="3753000" />
+      <workItem from="1752665744086" duration="2575000" />
     </task>
     <task id="LOCAL-00001" summary="fix :  1_two_sum.dart">
       <option name="closed" value="true" />
@@ -214,23 +198,7 @@
       <option name="project" value="LOCAL" />
       <updated>1752664597620</updated>
     </task>
-    <task id="LOCAL-00008" summary="feat : 14-longest-common-prefix.dart">
-      <option name="closed" value="true" />
-      <created>1752668529961</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1752668529961</updated>
-    </task>
-    <task id="LOCAL-00009" summary="feat : 14-longest-common-prefix.dart">
-      <option name="closed" value="true" />
-      <created>1752755113966</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1752755113966</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,8 +222,18 @@
     <MESSAGE value="chore : .gitignore" />
     <MESSAGE value="feat : 13-roman-to-integer" />
     <MESSAGE value="feat : 14-longest-common-prefix.md" />
-    <MESSAGE value="feat : 14-longest-common-prefix.dart" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 14-longest-common-prefix.dart" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 14-longest-common-prefix.md" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/dart/14-longest-common-prefix.dart</url>
+          <line>2</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
