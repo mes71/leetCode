@@ -1,22 +1,27 @@
 class Solution {
   bool isValid(String s) {
-    if (s.length % 2 != 0) return false;
-    for (int i = 0; i < s.length; i++) {
-      for (int j = 1; j < s.length; j++) {}
+    if (s.length.isOdd) {
+      return false;
     }
-  }
 
-  bool _isParid(String strat, String end) {
-    return strat == '(' && end == ')';
+    final stack = <String>[];
+    for (int i = 0; i < s.length; i++) {
+      final char = s[i];
+      if (char == '(' || char == '[' || char == '{') {
+        stack.add(char);
+      } else {
+        if (stack.isEmpty) {
+          return false;
+        }
+        final top = stack.removeLast();
+        if ((top != '(' && char == ')') ||
+            (top != '{' && char == '}') ||
+            (top != '[' && char == ']')) {
+          return false;
+        }
+      }
+    }
+    return stack.isEmpty;
   }
 }
 
-void main() {
-  Solution solution = Solution();
-
-  print(solution.isValid('(())'));
-  print(solution.isValid('()[]{}'));
-  print(solution.isValid('([)]'));
-  print(solution.isValid('{[]}'));
-  print(solution.isValid('('));
-}
